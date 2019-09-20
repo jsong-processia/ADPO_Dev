@@ -1,0 +1,34 @@
+###############################################################################
+#### PRSAdminSettings.properties - Properties file for POS Automation Tool ####
+###############################################################################
+
+# Default variables for POS Import Input files.
+PRS.POSAutomationTool.ProductName="3DEXPERIENCE";
+PRS.POSAutomationTool.Default_Separator=";";
+PRS.POSAutomationTool.Default_NullCharacter="$";
+
+# Path and File names for POS Automation Tool Files
+PRS.POSAutomationTool.ImportInputDir=ImportInput
+PRS.POSAutomationTool.LogsDir=Logs
+PRS.POSAutomationTool.PnOImportInputFileName=PnOImportInput.txt
+PRS.POSAutomationTool.PassportInputFileName=PassportInput.txt
+PRS.POSAutomationTool.LogFileName=POSImportToolLog.txt
+
+# Default configuration values
+PRS.POSAutomationTool.Default_InvalidChars=\\ * $ ? \" \' , ; \\n \\r
+PRS.POSAutomationTool.Default_CompanyName_InvalidChars=# $ @ % * , ? \\ < > [ ] | : ;
+PRS.POSAutomationTool.Default_PassportCols=Name|First Name|Last Name|Email Address
+PRS.POSAutomationTool.Default_MandatoryCols_Context=Role|Organization|Project
+PRS.POSAutomationTool.Default_MandatoryCols_CS=Name|Visibility
+PRS.POSAutomationTool.Default_MandatoryCols_OrgStructure=Type|Name|Originator
+PRS.POSAutomationTool.Default_MandatoryCols_Userlist=Name|First Name|Last Name|Email Address|State|Member
+PRS.POSAutomationTool.Default_UniqueCols_OrgStructure=Name
+PRS.POSAutomationTool.Default_UniqueCols_CS=Name
+PRS.POSAutomationTool.Default_UniqueCols_Userlist=Name|Email Address
+PRS.POSAutomationTool.Default_UniqueCols_Context=
+
+PRS.POSAutomationTool.Default_License_Separator=",";
+PRS.POSAutomationTool.Default_Mandatorycol_Separator="|";
+PRS.POSAutomationTool.Default_Invalidchar_Separator=" ";
+PRS.POSAutomationTool.Default_Config_Value_Separator=|
+

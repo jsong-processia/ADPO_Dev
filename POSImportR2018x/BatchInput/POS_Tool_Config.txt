@@ -1,0 +1,10 @@
+# Syntax: Variable Name=Variable Value=Variable Description
+ENOVIAINSTALLPATH=D:\Work\Apps\DS\R2018x=Full Path of Target 3DExperience root installation folder. 
+POSTOOLINSTALLPATH=D:\Work\SDP\POS\02_Build=Full Path of POS Automation Tool installation folder.
+MQL_ADMINUSER=creator=3DExperience user with Administrative rights to run POS Tool program in MQL prompt.
+MQL_ADMINUSER_PSWD=enoviaV6=Password of above admin user.
+POS_SERVERURL_ARG=http://localhost:8070/internal=NonCAS url of Target 3DExperience environment on which VPLMPOS scripts are to be run.
+POS_USER_ARG=admin_platform=3DExperience User with Administrative access to run VPLMPOS script.
+POS_PASSWORD_ARG=enoviaV6=Password of above User.
+POS_CONTEXT_ARG="ctx::VPLMAdmin.Company Name.Default"=Security Context through which above User will be connected to run VPLMPOS script.
+PASSPORT_URL="https://3dx.vs.com/3dpassport"=Passport URL of Target 3DExperience environment.
